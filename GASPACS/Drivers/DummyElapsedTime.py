@@ -8,5 +8,5 @@ class DummyElapsedTime(Driver):
         self.initialTime = datetime.now()
 
     def update(self):
-        print(datetime.now() - self.initialTime)
-        return datetime.now() - self.initialTime
+        print((datetime.now() - self.initialTime).seconds, "seconds elapsed")
+        return (datetime.now() - self.initialTime).seconds
