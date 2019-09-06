@@ -1,4 +1,4 @@
-from GASPACS.Drivers.Driver import Driver
+from Drivers.Driver import Driver
 
 
 class SquareWave(Driver):

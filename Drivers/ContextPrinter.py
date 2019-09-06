@@ -1,4 +1,4 @@
-from GASPACS.Drivers.Component import Component
+from Drivers.Component import Component
 
 
 class ContextPrinter(Component):

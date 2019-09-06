@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from GASPACS.Drivers.Driver import Driver
+from Drivers.Driver import Driver
 
 
 class DummyElapsedTime(Driver):
@@ -9,5 +9,4 @@ class DummyElapsedTime(Driver):
         self.initialTime = datetime.now()
 
     def update(self):
-        print((datetime.now() - self.initialTime).seconds, "seconds elapsed")
         return (datetime.now() - self.initialTime).seconds

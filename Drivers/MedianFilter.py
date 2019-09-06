@@ -1,6 +1,6 @@
 from collections import deque
 
-from GASPACS.Drivers.Component import Component
+from Drivers.Component import Component
 
 
 class MedianFilter(Component):
